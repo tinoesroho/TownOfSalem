@@ -1,0 +1,95 @@
+@font-face {
+  font-family:"Blackwood Castle";
+  src:url("fonts/Blackwood Castle.ttf");
+    }
+
+@font-face {
+  font-family:"Blackwood Castle Shadow";
+  src:url("fonts/Blackwood Castle Shadow.ttf");
+    }
+
+.header{
+  font-family: Blackwood Castle Shadow;
+  font-size: 60px;
+  text-align: center;
+  color:white;
+  margin-bottom: 50px;
+  background-color: black;
+}
+
+.greenColor{
+    font-family:"Times New Roman";
+    color: #7FF308;
+    font-size: 18px;
+}
+
+.blueColor{
+    color: rgb(66, 192, 251);
+    font-family:"Times New Roman";
+    font-size: 18px;
+}
+
+.redColor{
+    color: #DD0000;
+    font-family:"Times New Roman";
+    font-size: 18px;
+}
+
+.grayColor{
+    color: #C0BFBE;
+    font-family:"Times New Roman";
+    font-size: 18px;
+}
+
+.whiteColor{
+    color:white;
+    font-family:"Times New Roman";
+    font-size: 18px;
+}
+
+body{
+ background-color: rgba(0, 0, 0, .90);
+
+}
+
+.container {
+    width: 370px;;
+    float: left;
+}
+
+input{
+    float:right;
+}
+
+div{
+    margin-bottom: 5px;
+}
+
+select{
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 7.15px;
+}
+
+#test{
+    float: left;
+    margin-left: 10px;
+    
+}
+
+.checkbox input {
+    margin-bottom: 10.35px;
+}
+
+.checkbox{
+    margin-left: 15px;
+    float: left;
+}
+
+.hm{
+    border-style:inset;
+    border-color: white;
+    width: 575px;
+    height: 400px;
+    margin: 10px;
+}
