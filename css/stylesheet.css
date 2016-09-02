@@ -53,8 +53,14 @@ body{
 }
 
 .container {
-    width: 370px;;
+    margin-top: 5px;
     float: left;
+    height: inherit;
+    margin-right: 20px;
+}
+
+.container div{
+    margin-bottom: inherit;
 }
 
 input{
@@ -73,30 +79,45 @@ select{
 
 #test{
     float: left;
-    margin-left: 10px;
-    
+    margin-left: 10px;    
 }
 
 .checkbox input {
-    margin-bottom: 10.35px;
+    margin: 7px;
 }
 
 .checkbox{
     margin-left: 15px;
     float: left;
+    height: inherit;
 }
 
 .hm{
-    border-style:inset;
-    border-color: white;
-    width: 575px;
+    width: 600px;
     height: 400px;
     margin: 10px;
-     position: absolute;
+    position: absolute;
     top:0;
     bottom: 0;
     left: 0;
     right: 0;
-
     margin: auto;
+ 
 }
+
+.inputbox {
+    float:left;
+    height: inherit;
+}
+
+.inputbox input{
+    margin-bottom: inherit;
+}
+
+div .notes textarea{
+    height: 100px;
+    width: 500px;
+}
+
+
+
