@@ -121,5 +121,10 @@ div .notes textarea{
     width: 540px;
 }
 
+#test input{
+    margin-left: 15px;
+        transform: scale(1.5);
+}
+
 
 
