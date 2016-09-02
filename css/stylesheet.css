@@ -118,12 +118,12 @@ select{
 
 div .notes textarea{
     height: 100px;
-    width: 540px;
+    width: 533px;
 }
 
 #test input{
     margin-left: 15px;
-        transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 
