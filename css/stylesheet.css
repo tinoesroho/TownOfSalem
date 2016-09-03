@@ -126,5 +126,9 @@ div .notes textarea{
     transform: scale(1.5);
 }
 
+select {
+    width: 7.75em;
+}
+
 
 
