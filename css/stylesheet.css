@@ -1,46 +1,47 @@
 @font-face {
-  font-family:"Blackwood Castle";
-  src:url("fonts/Blackwood Castle.ttf");
-    }
+    font-family: "Blackwood Castle";
+    src: url("fonts/Blackwood Castle.ttf");
+}
 
 @font-face {
-  font-family:"Blackwood Castle Shadow";
-  src:url("fonts/Blackwood Castle Shadow.ttf");
-    }
+    font-family: "Blackwood Castle Shadow";
+    src: url("fonts/Blackwood Castle Shadow.ttf");
+}
 
-.greenColor{
-    font-family:"Times New Roman";
+.greenColor {
+    font-family: "Times New Roman";
     color: #7FF308;
     font-size: 18px;
 }
 
-.blueColor{
-    color: rgb(66, 192, 251);
-    font-family:"Times New Roman";
+.blueColor {
+    color: #42c0fb;
+    font-family: "Times New Roman";
     font-size: 18px;
 }
 
-.redColor{
-    color: #DD0000;
-    font-family:"Times New Roman";
+.redColor {
+    color: #D00;
+    font-family: "Times New Roman";
     font-size: 18px;
 }
 
-.grayColor{
+.grayColor {
     color: #C0BFBE;
-    font-family:"Times New Roman";
+    font-family: "Times New Roman";
     font-size: 18px;
 }
 
-.whiteColor{
-    color:white;
-    font-family:"Times New Roman";
+.whiteColor {
+    color: #fff;
+    font-family: "Times New Roman";
     font-size: 18px;
 }
 
-body{
- background-color: rgba(0, 0, 0, .90);
-
+body {
+    background-image: url(../bg.png);
+    background-color: #000;
+    background-repeat: repeat;
 }
 
 .container {
@@ -48,29 +49,36 @@ body{
     float: left;
     margin-right: 20px;
     position: absolute;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
-.container div{
+.container div {
     margin-bottom: inherit;
 }
 
-input{
-    float:right;
+input {
+    float: right;
 }
 
-div{
+div {
     margin-bottom: 5px;
 }
 
-select{
+select {
     float: left;
     margin-left: 5px;
     margin-bottom: 7.15px;
 }
 
-#test{
+#test {
     float: left;
-    margin-left: 10px;    
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+#textfield {
+    margin-left: 16.5px;
 }
 
 .checkbox input {
@@ -78,41 +86,47 @@ select{
     margin: 6.7px;
 }
 
-.checkbox{
+.checkbox {
     margin-left: 15px;
     float: left;
     height: inherit;
 }
 
-.hm{
+.hm {
     width: 600px;
     height: 400px;
-    margin: 10px;
-    position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
- 
+    padding-top: 100px;
+    position: relative;
+    margin: 0 auto;
 }
 
 .inputbox {
-    float:left;
+    float: left;
     height: inherit;
-    margin-left: 200px;
+    margin-left: 262.5px;
+    padding-top: 20px;
+	
 }
 
-.inputbox input{
+.inputbox input {
     margin-bottom: inherit;
 }
 
-div .notes textarea{
+.notes {
+    background-color: rgba(0,0,0,0.6);
+    margin-right: 0;
+    padding-bottom: 50px;
+    border: 3px solid #141414;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #000;
+}
+
+div .notes textarea {
     height: 100px;
     width: 533px;
 }
 
-#test input{
+#test input {
     margin-left: 15px;
     transform: scale(1.5);
 }
@@ -120,6 +134,3 @@ div .notes textarea{
 select {
     width: 7.75em;
 }
-
-
-
