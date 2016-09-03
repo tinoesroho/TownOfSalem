@@ -8,15 +8,6 @@
   src:url("fonts/Blackwood Castle Shadow.ttf");
     }
 
-.header{
-  font-family: Blackwood Castle Shadow;
-  font-size: 60px;
-  text-align: center;
-  color:white;
-  margin-bottom: 50px;
-  background-color: black;
-}
-
 .greenColor{
     font-family:"Times New Roman";
     color: #7FF308;
