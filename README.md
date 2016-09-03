@@ -8,4 +8,4 @@ This is a webpage to allow Town Of Salem players to keep track of users
   
   By Haleem Assal 
   
-  ![alt tag](ToSH.png)
+  ![alt tag](ToS.png)
