@@ -1,11 +1,10 @@
 # TownOfSalem
 Town of Salem Helper
 
-This is a webpage to allow Town Of Salem players to keep track of users
-  Benefits all players and roles
+Webpage to for Town Of Salem players to keep track of users
   
-  https://dreamiko.github.io/TownOfSalem/
+https://dreamiko.github.io/TownOfSalem/
   
-  By Haleem Assal 
+By Haleem Assal 
   
-  ![alt tag](ToS.png)
+![alt tag](ToS.png)
