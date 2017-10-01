@@ -135,12 +135,12 @@ $(document).ready(function() {
     
     $("#button10").click(function(){
         if($(this).is(":checked")){
-            $(".blueColor:nth-child(11)").css({'color': 'red','text-transform': 'uppercase'
+            $(".redColor:nth-child(11)").css({'color': 'red','text-transform': 'uppercase'
                                  ,'text-decoration': 'line-through'});
             $("#10").prop("disabled", true);
             $("#select10").prop("disabled", true);
         } else {
-            $(".blueColor:nth-child(11)").css({'color': 'rgb(66, 192, 251)','text-transform': 'capitalize', 'text-decoration': 'none'});
+            $(".redColor:nth-child(11)").css({'color': 'rgb(66, 192, 251)','text-transform': 'capitalize', 'text-decoration': 'none'});
             $("#10").prop("disabled", false);
             $("#select10").prop("disabled", false);
         }
@@ -148,12 +148,12 @@ $(document).ready(function() {
     
        $("#button11").click(function(){
         if($(this).is(":checked")){
-            $(".grayColor:nth-child(12)").css({'color': 'red','text-transform': 'uppercase'
+            $(".blueColor:nth-child(12)").css({'color': 'red','text-transform': 'uppercase'
                                  ,'text-decoration': 'line-through'});
             $("#11").prop("disabled", true);
             $("#select11").prop("disabled", true);
         } else {
-            $(".grayColor:nth-child(12)").css({'color': '#C0BFBE','text-transform': 'capitalize', 'text-decoration': 'none'});
+            $(".blueColor:nth-child(12)").css({'color': '#C0BFBE','text-transform': 'capitalize', 'text-decoration': 'none'});
             $("#11").prop("disabled", false);
             $("#select11").prop("disabled", false);
         }
@@ -161,12 +161,12 @@ $(document).ready(function() {
     
       $("#button12").click(function(){
         if($(this).is(":checked")){
-            $(".grayColor:nth-child(13)").css({'color': 'red','text-transform': 'uppercase'
+            $(".blueColor:nth-child(13)").css({'color': 'red','text-transform': 'uppercase'
                                  ,'text-decoration': 'line-through'});
             $("#12").prop("disabled", true);
             $("#select12").prop("disabled", true);
         } else {
-            $(".grayColor:nth-child(13)").css({'color': '#C0BFBE','text-transform': 'capitalize', 'text-decoration': 'none'});
+            $(".blueColor:nth-child(13)").css({'color': '#C0BFBE','text-transform': 'capitalize', 'text-decoration': 'none'});
             $("#12").prop("disabled", false);
             $("#select12").prop("disabled", false);
         }
@@ -187,12 +187,12 @@ $(document).ready(function() {
     
         $("#button14").click(function(){
         if($(this).is(":checked")){
-            $(".whiteColor:nth-child(15)").css({'color': 'red','text-transform': 'uppercase'
+            $(".grayColor:nth-child(15)").css({'color': 'red','text-transform': 'uppercase'
                                  ,'text-decoration': 'line-through'});
             $("#14").prop("disabled", true);
             $("#select14").prop("disabled", true);
         } else {
-            $(".whiteColor:nth-child(15)").css({'color': 'white','text-transform': 'capitalize', 'text-decoration': 'none'});
+            $(".grayColor:nth-child(15)").css({'color': 'white','text-transform': 'capitalize', 'text-decoration': 'none'});
             $("#14").prop("disabled", false);
             $("#select14").prop("disabled", false);
         }
