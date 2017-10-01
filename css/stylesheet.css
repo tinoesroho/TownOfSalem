@@ -93,8 +93,6 @@ select {
 }
 
 .hm {
-    width: 600px;
-    height: 400px;
     position: relative;
     margin: 0 auto;
 }
