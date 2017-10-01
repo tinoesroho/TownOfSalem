@@ -83,12 +83,12 @@ $(document).ready(function() {
     
             $("#button6").click(function(){
         if($(this).is(":checked")){
-            $(".greenColor:nth-child(7)").css({'color': 'red','text-transform': 'uppercase'
+            $(".blueColor:nth-child(7)").css({'color': 'red','text-transform': 'uppercase'
                                  ,'text-decoration': 'line-through'});
             $("#6").prop("disabled", true);
             $("#select6").prop("disabled", true);
         } else {
-            $(".greenColor:nth-child(7)").css({'color': '#7FF308','text-transform': 'capitalize', 'text-decoration': 'none'});
+            $(".blueColor:nth-child(7)").css({'color': '#7FF308','text-transform': 'capitalize', 'text-decoration': 'none'});
             $("#6").prop("disabled", false);
             $("#select6").prop("disabled", false);
         }
@@ -109,12 +109,12 @@ $(document).ready(function() {
     
           $("#button8").click(function(){
         if($(this).is(":checked")){
-            $(".redColor:nth-child(9)").css({'color': 'red','text-transform': 'uppercase'
+            $(".blueColor:nth-child(9)").css({'color': 'red','text-transform': 'uppercase'
                                  ,'text-decoration': 'line-through'});
             $("#8").prop("disabled", true);
             $("#select8").prop("disabled", true);
         } else {
-            $(".redColor:nth-child(9)").css({'color': '#DD0000','text-transform': 'capitalize', 'text-decoration': 'none'});
+            $(".blueColor:nth-child(9)").css({'color': '#DD0000','text-transform': 'capitalize', 'text-decoration': 'none'});
             $("#8").prop("disabled", false);
             $("#select8").prop("disabled", false);
         }
