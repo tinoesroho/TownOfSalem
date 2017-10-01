@@ -3,7 +3,7 @@ $(document).ready(function() {
     $("#button0").click(function(){
      
         if($(this).is(":checked")){
-            $("#tester").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italiac'
+            $("#tester").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italic'
                                  ,'text-decoration': 'line-through'});
             $("#jailor").prop("disabled", true);
             $("#select0").prop("disabled", true);
@@ -16,7 +16,7 @@ $(document).ready(function() {
     
       $("#button1").click(function(){
         if($(this).is(":checked")){
-            $(".Slot:nth-child(2)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italiac'
+            $(".Slot:nth-child(2)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italic'
                                  ,'text-decoration': 'line-through'});
 
              $("#1").prop("disabled", true);
@@ -31,7 +31,7 @@ $(document).ready(function() {
     
        $("#button2").click(function(){
         if($(this).is(":checked")){
-            $(".Slot:nth-child(3)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italiac'
+            $(".Slot:nth-child(3)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italic'
                                  ,'text-decoration': 'line-through'});
             $("#2").prop("disabled", true);
             $("#select2").prop("disabled", true);
@@ -44,7 +44,7 @@ $(document).ready(function() {
     
         $("#button3").click(function(){
         if($(this).is(":checked")){
-            $(".Slot:nth-child(4)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italiac'
+            $(".Slot:nth-child(4)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italic'
                                  ,'text-decoration': 'line-through'});
             $("#3").prop("disabled", true);
             $("#select3").prop("disabled", true);
@@ -57,7 +57,7 @@ $(document).ready(function() {
     
           $("#button4").click(function(){
         if($(this).is(":checked")){
-            $(".Slot:nth-child(5)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italiac'
+            $(".Slot:nth-child(5)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italic'
                                  ,'text-decoration': 'line-through'});
             $("#4").prop("disabled", true);
             $("#select4").prop("disabled", true);
@@ -70,7 +70,7 @@ $(document).ready(function() {
     
               $("#button5").click(function(){
         if($(this).is(":checked")){
-            $(".Slot:nth-child(6)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italiac'
+            $(".Slot:nth-child(6)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italic'
                                  ,'text-decoration': 'line-through'});
             $("#5").prop("disabled", true);
             $("#select5").prop("disabled", true);
@@ -83,7 +83,7 @@ $(document).ready(function() {
     
             $("#button6").click(function(){
         if($(this).is(":checked")){
-            $(".Slot:nth-child(7)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italiac'
+            $(".Slot:nth-child(7)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italic'
                                  ,'text-decoration': 'line-through'});
             $("#6").prop("disabled", true);
             $("#select6").prop("disabled", true);
@@ -96,7 +96,7 @@ $(document).ready(function() {
     
             $("#button7").click(function(){
         if($(this).is(":checked")){
-            $(".Slot:nth-child(8)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italiac'
+            $(".Slot:nth-child(8)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italic'
                                  ,'text-decoration': 'line-through'});
             $("#7").prop("disabled", true);
             $("#select7").prop("disabled", true);
@@ -109,7 +109,7 @@ $(document).ready(function() {
     
           $("#button8").click(function(){
         if($(this).is(":checked")){
-            $(".Slot:nth-child(9)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italiac'
+            $(".Slot:nth-child(9)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italic'
                                  ,'text-decoration': 'line-through'});
             $("#8").prop("disabled", true);
             $("#select8").prop("disabled", true);
@@ -122,7 +122,7 @@ $(document).ready(function() {
     
         $("#button9").click(function(){
         if($(this).is(":checked")){
-            $(".Slot:nth-child(10)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italiac'
+            $(".Slot:nth-child(10)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italic'
                                  ,'text-decoration': 'line-through'});
             $("#9").prop("disabled", true);
             $("#select9").prop("disabled", true);
@@ -135,7 +135,7 @@ $(document).ready(function() {
     
     $("#button10").click(function(){
         if($(this).is(":checked")){
-            $(".Slot:nth-child(11)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italiac'
+            $(".Slot:nth-child(11)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italic'
                                  ,'text-decoration': 'line-through'});
             $("#10").prop("disabled", true);
             $("#select10").prop("disabled", true);
@@ -148,7 +148,7 @@ $(document).ready(function() {
     
        $("#button11").click(function(){
         if($(this).is(":checked")){
-            $(".Slot:nth-child(12)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italiac'
+            $(".Slot:nth-child(12)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italic'
                                  ,'text-decoration': 'line-through'});
             $("#11").prop("disabled", true);
             $("#select11").prop("disabled", true);
@@ -161,7 +161,7 @@ $(document).ready(function() {
     
       $("#button12").click(function(){
         if($(this).is(":checked")){
-            $(".Slot:nth-child(13)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italiac'
+            $(".Slot:nth-child(13)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italic'
                                  ,'text-decoration': 'line-through'});
             $("#12").prop("disabled", true);
             $("#select12").prop("disabled", true);
@@ -174,7 +174,7 @@ $(document).ready(function() {
     
       $("#button13").click(function(){
         if($(this).is(":checked")){
-            $(".grayColor:nth-child(14)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italiac'
+            $(".grayColor:nth-child(14)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italic'
                                  ,'text-decoration': 'line-through'});
             $("#13").prop("disabled", true);
             $("#select13").prop("disabled", true);
@@ -187,7 +187,7 @@ $(document).ready(function() {
     
         $("#button14").click(function(){
         if($(this).is(":checked")){
-            $(".grayColor:nth-child(15)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italiac'
+            $(".grayColor:nth-child(15)").css({'color': 'red','text-transform': 'uppercase', 'font-style': 'italic'
                                  ,'text-decoration': 'line-through'});
             $("#14").prop("disabled", true);
             $("#select14").prop("disabled", true);
