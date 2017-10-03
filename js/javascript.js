@@ -1,4 +1,38 @@
 $(document).ready(function() {
+	SetUnknown();
+	
+	function SetUnknown(){
+	var JAI ="???";
+	var TI1 = "???";
+	var TI2 = "???";
+	var TS = "???";
+	var TP = "???";
+	var TK = "???";
+	var RT1 = "???";
+	var RT2 = "???";
+	var RT3 = "???";
+	var GF = "???";
+	var MF = "???";
+	var RM1 = "???";
+	var RM2 = "???";
+	var NK = "???";
+	var NE = "???";
+	
+	var TI1J = "???";
+	var TI2J = "???";
+	var TSJ = "???";
+	var TPJ = "???";
+	var TKJ = "???";
+	var RT1J = "???";
+	var RT2J = "???";
+	var RT3J = "???";
+	var GFJ = "???";
+	var MFJ = "???";
+	var RM1J = "???";
+	var RM2J = "???";
+	var NKJ = "???";
+	var NEJ = "???";
+	}
 	
     $("#button0").click(function(){
      
@@ -197,7 +231,57 @@ $(document).ready(function() {
             $("#select14").prop("disabled", false);
         }
     });
+      $("#reset").click(function(){
+		     window.location.reload();
+	  });
     
-    
+      $("#export").click(function(){
+		  var JAI = $("#jailor").val();
+		  var TI1 = $("#1").val();
+		  var TI2 = $("#2").val();
+		  var TS = $("#3").val();
+		  var TP = $("#4").val();
+		  var TK = $("#5").val();
+		  var RT1 = $("#6").val();
+		  var RT2 = $("#7").val();
+		  var RT3 = $("#8").val();
+		  var GF = $("#9").val();
+		  var MF = $("#10").val();
+		  var RM1 = $("#11").val();
+		  var RM2 = $("#12").val();
+		  var NK = $("#13").val();
+		  var NE = $("#14").val();
+		  
+		  var TI1 = $("#select1").val();
+		  var TI2 = $("#select2").val();
+		  var TS = $("#select3").val();
+		  var TP = $("#select4").val();
+		  var TK = $("#select5").val();
+		  var RT1 = $("#select6").val();
+		  var RT2 = $("#select7").val();
+		  var RT3 = $("#select8").val();
+		  var MF = $("#select10").val();
+		  var RM1 = $("#select11").val();
+		  var RM2 = $("#select12").val();
+		  var NK = $("#select13").val();
+		  var NE = $("#select14").val();
+		  
+			var export_string = 'JAI ' + JAI +
+			'\n TI ' + TI1 + " " + TI1J +
+			'\n TI ' + TI2 + " " + TI2J +
+			'\n TS ' + TS + " " + TSJ +
+			'\n TP ' + TP + " " + TPJ +
+			'\n TK ' + TK + " " + TKJ +
+			'\n RT ' + RT1 + " " + RT1J +
+			'\n RT ' + RT2 + " " + RT2J +
+			'\n RT ' + RT3 + " " + RT3J +
+			'\n GF ' + GF + 
+			'\n MF ' + MF + " " + MFJ +
+			'\n RM ' + RM1 + " " + RM1J +
+			'\n RM ' + RM2 + " " + RM2J +
+			'\n NK ' + NK + " " + NKJ +
+			'\n NE ' + NE + " " + NEJ ;		
+		  $("#export_field").val(export_string);			
+    });    
 
 });
