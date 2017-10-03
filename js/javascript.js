@@ -236,6 +236,7 @@ $(document).ready(function() {
 	  });
     
       $("#export").click(function(){
+	      var notes = $("#notes").val();
 		  var JAI = $("#jailor").val();
 		  var TI1 = $("#1").val();
 		  var TI2 = $("#2").val();
@@ -266,7 +267,7 @@ $(document).ready(function() {
 		  var NKJ = $("#select13").val();
 		  var NEJ = $("#select14").val();
 		  
-			var export_string = 'JAI ' + JAI +
+			var export_string = notes + '\n\n JAI ' + JAI +
 			'\n TI ' + TI1 + " " + TI1J +
 			'\n TI ' + TI2 + " " + TI2J +
 			'\n TS ' + TS + " " + TSJ +
