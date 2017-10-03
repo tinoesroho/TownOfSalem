@@ -234,9 +234,23 @@ $(document).ready(function() {
       $("#reset").click(function(){
 		     window.location.reload();
 	  });
-    
+    $("#copy").click(function(){
+	 doExport();
+	 $("#export_field").select();
+	    
+  try {
+    var successful = document.execCommand('copy');
+    var msg = successful ? 'successful' : 'unsuccessful';
+    console.log('Copying text command was ' + msg);
+  } catch (err) {
+    console.log('Oops, unable to copy');
+  }
+    });
       $("#export").click(function(){
-	      var notes = $("#notes").val();
+		doExport();	
+    });    
+function doExport(){
+		      var notes = $("#notes").val();
 		  var JAI = $("#jailor").val();
 		  var TI1 = $("#1").val();
 		  var TI2 = $("#2").val();
@@ -282,7 +296,6 @@ $(document).ready(function() {
 			'\n RM ' + RM2 + " " + RM2J +
 			'\n NK ' + NK + " " + NKJ +
 			'\n NE ' + NE + " " + NEJ ;		
-		  $("#export_field").val(export_string);			
-    });    
-
+		  $("#export_field").val(export_string);
+}
 });
