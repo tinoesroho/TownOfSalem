@@ -236,6 +236,7 @@ $(document).ready(function() {
 	      $('select').val('');
 	      $('textarea').val('');
 	      $('input:checkbox').removeAttr('checked');
+	      window.location.reload();
 	  });
     $("#copy").click(function(){
 	 doExport();
