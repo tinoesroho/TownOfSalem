@@ -252,19 +252,19 @@ $(document).ready(function() {
 		  var NK = $("#13").val();
 		  var NE = $("#14").val();
 		  
-		  var TI1 = $("#select1").val();
-		  var TI2 = $("#select2").val();
-		  var TS = $("#select3").val();
-		  var TP = $("#select4").val();
-		  var TK = $("#select5").val();
-		  var RT1 = $("#select6").val();
-		  var RT2 = $("#select7").val();
-		  var RT3 = $("#select8").val();
-		  var MF = $("#select10").val();
-		  var RM1 = $("#select11").val();
-		  var RM2 = $("#select12").val();
-		  var NK = $("#select13").val();
-		  var NE = $("#select14").val();
+		  var TI1J = $("#select1").val();
+		  var TI2J = $("#select2").val();
+		  var TSJ = $("#select3").val();
+		  var TPJ = $("#select4").val();
+		  var TKJ = $("#select5").val();
+		  var RT1J = $("#select6").val();
+		  var RT2J = $("#select7").val();
+		  var RT3J = $("#select8").val();
+		  var MFJ = $("#select10").val();
+		  var RM1J = $("#select11").val();
+		  var RM2J = $("#select12").val();
+		  var NKJ = $("#select13").val();
+		  var NEJ = $("#select14").val();
 		  
 			var export_string = 'JAI ' + JAI +
 			'\n TI ' + TI1 + " " + TI1J +
