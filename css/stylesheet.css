@@ -151,3 +151,21 @@ button.active {
   box-shadow: 0 5px #27496d;
   transform: translateY(5px);
 }
+
+#reset {
+  color: #fff;
+  background-color: #DC143C;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px #B22222;
+}
+
+#reset:hover {
+  background-color: #CD2626;
+}
+
+#reset:active {
+  background-color: #CD2626;
+  box-shadow: 0 5px #8B1A1A;
+  transform: translateY(5px);
+}
