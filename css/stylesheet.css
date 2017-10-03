@@ -95,6 +95,13 @@ select {
 .hm {
     position: relative;
     margin: 0 auto;
+    max-width: 600px;
+    float: left;
+    margin-top: 30px;
+}
+
+.column2 {
+	margin-top: 30px;
 }
 
 .inputbox {
