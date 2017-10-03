@@ -125,9 +125,10 @@ select {
     box-shadow: 3px 3px 3px #000;
 }
 
-div .notes textarea {
+div .notes textarea, .export textarea {
     height: 100px;
-    width: 533px;
+    max-width: 533px;
+    width:100%;
 }
 
 #test input {
