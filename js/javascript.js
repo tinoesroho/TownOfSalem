@@ -236,10 +236,13 @@ $(document).ready(function() {
 	      $('select').val('');
 	      $('textarea').val('');
 	      $('input:checkbox').removeAttr('checked');
-	      window.location.reload();
+	      location.reload(true); 
 	  });
     $("#copy").click(function(){
 	 doExport();
+	 var notes = $("#notes").val();
+	 var nota = notes + '\n ' + export_string ;
+	 $("#export_field").val(nota);
 	 $("#export_field").select();
 	    
   try {
@@ -251,10 +254,10 @@ $(document).ready(function() {
   }
     });
       $("#export").click(function(){
-		doExport();	
+		doExport();
     });    
 function doExport(){
-		      var notes = $("#notes").val();
+		      
 		  var JAI = $("#jailor").val();
 		  var TI1 = $("#1").val();
 		  var TI2 = $("#2").val();
