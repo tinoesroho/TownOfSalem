@@ -241,7 +241,7 @@ $(document).ready(function() {
     $("#copy").click(function(){
 	 doExport();
 	 var notes = $("#notes").val();
-	 var nota = notes + '\n ' + export_string ;
+	 var nota = notes + '\n\n ' + export_string ;
 	 $("#export_field").val(nota);
 	 $("#export_field").select();
 	    
@@ -288,7 +288,7 @@ function doExport(){
 		  var NKJ = $("#select13").val();
 		  var NEJ = $("#select14").val();
 		  
-			var export_string = notes + '\n\n JAI ' + JAI +
+			var export_string = 'JAI ' + JAI +
 			'\n TI ' + TI1 + " " + TI1J +
 			'\n TI ' + TI2 + " " + TI2J +
 			'\n TS ' + TS + " " + TSJ +
