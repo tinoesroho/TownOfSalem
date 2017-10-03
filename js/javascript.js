@@ -232,7 +232,10 @@ $(document).ready(function() {
         }
     });
       $("#reset").click(function(){
-		     window.location.reload();
+	      $('input').val('');
+	      $('select').val('');
+	      $('textarea').val('');
+	      $('input:checkbox').removeAttr('checked');
 	  });
     $("#copy").click(function(){
 	 doExport();
