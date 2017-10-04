@@ -241,6 +241,7 @@ $(document).ready(function() {
     $("#copy").click(function(){
 	 doExport();
 	 var notes = $("#notes").val();
+	 var export_string = $("#export_field").val();
 	 var nota = notes + '\n\n ' + export_string ;
 	 $("#export_field").val(nota);
 	 $("#export_field").select();
