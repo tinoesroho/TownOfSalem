@@ -42,6 +42,9 @@ body {
     background-image: url(../bg.png);
     background-color: #000;
     background-repeat: repeat;
+    max-width: 600px;
+    align-self: center;
+    margin: auto;
 }
 
 .container {
@@ -102,6 +105,7 @@ select {
 
 .column2 {
 	margin-top: 30px;
+	clear: both;
 }
 
 .inputbox {
